@@ -6,6 +6,11 @@
 </p>
 
 <p>
+  <strong>Published:</strong>
+  <%= @article.published_on.strftime("%m/%d/%Y") %>
+</p>
+
+<p>
   <strong>Content:</strong>
   <%= @article.content %>
 </p>
